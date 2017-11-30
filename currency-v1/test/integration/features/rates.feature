@@ -5,4 +5,4 @@ Feature: Get Feature
 
 	Scenario: Default
 		When I GET "/"
-		Then response body should contain "Hello, World dane!"
+		Then response code should be 200
